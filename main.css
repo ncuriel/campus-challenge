@@ -1,0 +1,224 @@
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    padding-top: 17px;
+    color: #222222 !important;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.navbar-brand img {
+    height: 75px;
+    display: inline-block;
+}
+
+.btn {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.options p {
+    margin-left: 1.5rem;
+    margin-right: 0.7rem;
+}
+
+.options .btn {
+    margin-bottom: 4rem;
+    border: 2px solid #c72128;
+    border-radius: 3px;
+    padding: 2.5rem 6rem;
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #c72128;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.options .center-block {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.options .btn:hover {
+    color: #ffffff;
+    background-color: #c72128;
+}
+
+.social-icon {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #dddddd;
+}
+
+footer {
+    background-color: #ffffff;
+    margin-top: 0rem;
+    border-top: 2px solid #454545;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer2 {
+    margin: 6rem auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer2 img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-list-title {
+    color: #454545;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.footer-list {
+    list-style: none;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer-list a {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-decoration: none;
+    color: #454545;
+}
+
+.footer-list a:hover {
+    color: #757575 !important;
+}
+
+.hero-section {
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 450px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hero-title {
+    padding-top: 12rem;
+    margin-left: 5rem;
+}
+
+.hero-title h1 {
+    color:#ffffff;
+    /*color: #1998ba; */
+    font-weight: 900;
+    padding-left: 2.5rem;
+    font-size: 7rem;
+}
+
+.hero-title h2 {
+    color: #ffffff;
+    font-weight: 900;
+    padding-left: 2.5rem;
+    font-size: 3rem;
+}
+
+.navbar, .navbar-default, .navbar-static-top {
+    margin-bottom: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.nav li:hover {
+    background-color: #f4f4f4;
+}
+
+.video-button-campus {
+    margin-top: 16rem;
+}
+
+.v-align {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-40%);
+    -webkit-transform: translateY(-40%);
+    -moz-transform: translateY(-40%);
+}
+
+i.fa-play-circle {
+    color: #ffffff;
+}
+
+.video-button-campus span {
+    font-size: 10rem;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.video-button-campus span:hover {
+    color: #1998ba;
+}
+
+.fa-twitter {
+    padding: 0px;
+    color: #777777;
+}
+
+.option-left {
+    background-color: #ecf0f1;
+    border-left: 20px solid #555555;
+    border-top: 20px solid #555555;
+    border-bottom: 20px solid #555555;
+    border-right: 10px solid #555555;
+    padding: 0px 3rem;
+    padding-top: 12rem;
+    padding-bottom: 9rem;
+    border-color: #ffffff;
+}
+
+.option-middle {
+    background-color: #ecf0f1;
+    border-left: 10px solid #555555;
+    border-top: 20px solid #555555;
+    border-bottom: 20px solid #555555;
+    border-right: 10px solid #555555;
+    padding: 0px 3rem;
+    padding-top: 12rem;
+    padding-bottom: 9rem;
+    border-color: #ffffff;
+}
+
+.option-right {
+    background-color: #ecf0f1;
+    border-left: 10px solid #555555;
+    border-top: 20px solid #555555;
+    border-bottom: 20px solid #555555;
+    border-right: 20px solid #555555;
+    padding: 0px 3rem;
+    padding-top: 12rem;
+    padding-bottom: 9rem;
+    border-color: #ffffff;
+}
