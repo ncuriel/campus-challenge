@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Campus Challenge</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Main CSS -->
+    <link href="http://plateoftheunion.com/main.css" type="text/css" rel="stylesheet">  
+    <link href="main.css" type="text/css" rel="stylesheet">
+      
+    <!-- JS Scripts -->
+    <script src="home_page.js" type="text/javascript"></script>
+      
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".modal-backdrop, #video-modal .close, #video-modal .btn").on("click", function() {
+            $("#video-modal iframe").attr("src", jQuery("#video-modal iframe").attr("src"));
+            });
+        });
+    </script>
+      
+  </head>
+    
+  <body>
+      
+    <!-- Navbar -->  
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://www.plateoftheunion.com/campus-challenge/">
+                <img alt="Campus Challenge" src="images/potu_logo.png">
+                </a>
+            </div>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="http://plateoftheunion.com" target="_blank">Plate of the Union</a></li>
+                    <li><a href="http://goo.gl/forms/uBwOytDoL9" target="_blank">Apply</a></li>
+                    <li><a href="#" target="_blank">Rules</a></li>
+                    <li><a href="#" target="_blank">Resources</a></li>
+                    <li><a class="social-icon" href="www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="social-icon" href="www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="social-icon" href="www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+        </div>
+    </nav>
+     
+    <div class="container-fluid hero-section">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="hero-title">
+                    <h1>Campus Challenge</h1>
+                    <h2>Lore ipsum Lore ipsum Lore ipsum</h2>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="video-button-campus">
+                    <a href="" role="button" class="btn center-block" data-toggle="modal" data-target="#video-modal">
+                        <span class="ion-play"></span>
+                        <!-- <i class="fa fa-play-circle fa-5x"></i> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="container-fluid options">
+        <div class="row">
+            <div class="col-md-4 option-left">
+                <a role="button" target="_blank" href="http://goo.gl/forms/uBwOytDoL9" class="btn btn-primary btn-lg center-block">Apply</a>
+                <p>Find out how to fund your own project that is good for people and good for the planet.</p>    
+            </div>
+            <div class="col-md-4 option-middle">
+                <a role="button" href="http://goo.gl/forms/Ukggg2JJcG" target="_blank" class="btn btn-primary btn-lg center-block">Enroll a Team</a>
+                <p>Find out how to fund your own project that is good for people and good for the planet.</p>
+            </div>
+            <div class="col-md-4 option-right">
+                <a role="button" href="" target="_blank" class="btn btn-primary btn-lg center-block">Take Action</a>
+                <p>Find out how to fund your own project that is good for people and good for the planet.</p>
+            </div>
+        </div>
+    </div>
+      
+    <footer>
+        <div class="container-fluid">
+            <div class="footer2">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-3">
+                        <div class="footer-list-title">Legal</div>
+                        <ul class="footer-list">
+                            <a href=""><li>Privacy Policy</li></a>
+                            <a href=""><li>Rules and Guidelines</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-list-title">Organization</div>
+                        <ul class="footer-list">
+                            <a href=""><li>Plate of the Union</li></a>
+                            <a href=""><li>About</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-list-title">Services</div>
+                        <ul class="footer-list">
+                            <a href=""><li>Apply</li></a>
+                            <a href=""><li>Team Roster</li></a>
+                            <a href=""><li>Resources</li></a>
+                        </ul>
+                    </div>
+                    <img src="images/footer_hills.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+      
+<!-- Video Modal -->
+
+<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="videolabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <a href="" class="btn" data-dismiss="modal"><i class="fa fa-times fa-4x"></i></a>  
+        </div>
+        <iframe id="video_iframe" src="https://www.youtube.com/embed/bQFGOc1lgKQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+        </iframe>
+    </div>
+  </div>
+</div> 
+      
+      
+    <!-- jQuery and JQueryUI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
